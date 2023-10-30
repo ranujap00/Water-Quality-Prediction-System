@@ -1,0 +1,112 @@
+/* testWaterPotability.css */
+
+.formContainer {
+  background-color: rgba(206, 205, 205, 0.925);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin-top: 10px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .form-check-label {
+    font-weight: normal;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+
+  .submitBtn{
+    margin: 10px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+
+  .slider {
+    width: 90%; 
+    margin-right: 10px; 
+  }
+
+  .predictionContainer {
+    background-color: rgba(206, 205, 205, 0.925);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin-top: 10px;
+    margin-left: 20px; /* Adjust the left margin as needed */
+  }
+
+  .indented-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.indented-text h4 {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iron-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styles for each individual slider */
+.slider-container {
+  flex: 1; /* Distribute available space equally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjustments for the slider value text */
+.slider-value {
+  margin-top: 10px;
+  font-size: 14px; /* Adjust as needed */
+}
+
+.loading-spinner {
+  text-align: center;
+}
+
+.loading-spinner p {
+  margin-top: 10px;
+}

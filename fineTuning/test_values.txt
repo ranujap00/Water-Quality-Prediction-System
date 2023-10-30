@@ -1,0 +1,42 @@
+
+{
+    "pH" : 6.917863,
+    "iron" : 0.000081,
+    "nitrate" : 3.734167,
+    "chloride" : 227.029851,
+    "color" : "Faint Yellow",
+    "turbidity" : 0.019007,
+    "fluoride" : 0.622874,
+    "copper" : 0.437835,
+    "odor" : 1.686049,
+    "sulfate" : 144.010981,
+    "conductivity" : 432.844908,
+    "chlorine" : 3.292038,
+    "manganese" : 0.00078,
+    "totalDissolvedSolids" : 284.641984,
+    "month" : "January",
+    "waterTemp" : 15.348981,
+    "airTemp" : 71.220586,
+    "day": 26.0
+}
+
+{
+    "pH" : 1.17645556,
+    "iron" : 0.020272253,
+    "nitrate" : 4.665769038,
+    "chloride" : 106.7763838,
+    "color" : "Light Yellow",
+    "turbidity" : 0.577121406,
+    "fluoride" : 0.391623321,
+    "copper" : 0.012384522,
+    "odor" : 2.951640615,
+    "sulfate" : 264.3387584,
+    "conductivity" : 428.813495,
+    "chlorine" : 4.778219736,
+    "manganese" : 0.527222432,
+    "totalDissolvedSolids" : 194.5130257,
+    "month" : "January",
+    "waterTemp" : 20.48237253,
+    "airTemp" : 73.7719982,
+    "day": 28.0
+}

@@ -1,0 +1,79 @@
+Tested for 100000 rows
+
+ACCURAY SCORES
+
+remove missing values - 0.8618007777445408
+replace with the mean - 0.86755
+replace with the median - 0.8681 (BEST ONE)
+replace with the most_frequent - 0.8662
+replace with the constant - 0.86605
+
+FIND OPTIMAL columns
+
+Cols that can be removed - [Lead, Month, Source, Time Of Day, Zinc]
+
+with all columns
+    Accuracy - 0.86855
+    Precision - 0.64028
+    Recall - 0.94587
+    F1 - 0.7636
+
+Removed cols - [Month]
+    Accuracy - 0.86775
+    Precision - 0.63832
+    Recall - 0.94810
+    F1 - 0.7629
+
+Removed cols - [Iron]
+    Accuracy - 0.8666
+    Precision - 0.63874
+    Recall - 0.93407
+    F1 - 0.7586
+
+Removed cols - [Lead]
+    Accuracy - 0.86845
+    Precision - 0.64034
+    Recall - 0.94454
+    F1 - 0.7632
+
+Removed cols - [Lead, Month]
+    Accuracy - 0.8681
+    Precision - 0.6392
+    Recall - 0.94699
+    F1 - 0.7632
+
+Removed cols - [Lead, Month, Conductivity]
+    Accuracy - 0.86755
+    Precision - 0.6385
+    Recall - 0.9449
+    F1 - 0.7621
+
+Removed cols - [Lead, Month, Source]
+    Accuracy - 0.86815
+    Precision - 0.6389
+    Recall - 0.9487
+    F1 - 0.7636
+
+Removed cols - [Lead, Month, Source, Day]
+    Accuracy - 0.8676
+    Precision - 0.6380
+    Recall - 0.94788
+    F1 - 0.76272
+
+Removed cols - [Lead, Month, Source, Time Of Day]
+    Accuracy - 0.8688
+    Precision - 0.6398
+    Recall - 0.9505
+    F1 - 0.76487
+
+Removed cols - [Lead, Month, Source, Zinc, Time of Day]
+    Accuracy - 0.8696
+    Precision - 0.6418
+    Recall - 0.9485
+    F1 - 0.7655
+
+Removed cols - [Lead, Source, Zinc, Time of Day]
+    Accuracy - 0.87035
+    Precision - 0.6428
+    Recall - 0.9507
+    F1 - 0.7670

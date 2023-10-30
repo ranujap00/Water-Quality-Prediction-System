@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgb(10, 36, 83);
+    height: 100px; 
+    position: sticky;
+    top: 0; /* Adjust the value based on your design */
+    z-index: 100; /* Ensure it's above other content */
+  }
+  
+.btn-link {
+    background-color: rgb(57, 152, 184);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none; /* Remove underlines */
+    margin-right: 30px;
+    font-size: larger;
+  }
+
+.heading{
+    color: rgb(199, 191, 191);
+    margin-left: 300px;
+ }
